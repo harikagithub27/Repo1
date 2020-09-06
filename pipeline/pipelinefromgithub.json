@@ -1,0 +1,13 @@
+{
+	"name": "pipelinefromgithub",
+	"properties": {
+		"description": "copy data from github",
+		"parameters": {
+			"appeneddata": {
+				"type": "string",
+				"defaultValue": "appendeddata"
+			}
+		},
+		"annotations": []
+	}
+}
