@@ -98,7 +98,7 @@
 				"description": "copy data from github",
 				"activities": [
 					{
-						"name": "ValidationonName",
+						"name": "ValidationIfFileExists",
 						"type": "Validation",
 						"dependsOn": [],
 						"userProperties": [],
