@@ -3,9 +3,17 @@
 	"properties": {
 		"description": "copy data from github",
 		"parameters": {
-			"appeneddata": {
+			"appendeddata1": {
 				"type": "string",
-				"defaultValue": "appendeddata"
+				"defaultValue": "appendeddata1"
+			},
+			"appendeddata2": {
+				"type": "string",
+				"defaultValue": "appendeddata2"
+			},
+			"appendeddata3": {
+				"type": "string",
+				"defaultValue": "appendeddata3"
 			}
 		},
 		"annotations": []
