@@ -2,6 +2,22 @@
 	"name": "pipelinefromgithub",
 	"properties": {
 		"description": "copy data from github",
+		"activities": [
+			{
+				"name": "ValidationonName",
+				"type": "Validation",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"dataset": {
+						"referenceName": "ds_source1",
+						"type": "DatasetReference"
+					},
+					"timeout": "7.00:00:00",
+					"sleep": 10
+				}
+			}
+		],
 		"parameters": {
 			"appendeddata1": {
 				"type": "string",
